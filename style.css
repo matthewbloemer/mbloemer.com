@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #EEE;
+}
+
+#nav-bar {
+    background-color: #BBB;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+#main-logo-img {
+    margin-left: 10px;
+    height:60px;
+    width: 60px;
+}
+
+.nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin: auto;
+    text-decoration: none;
+    color: #2470B9;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: #194E81;
+}
+
+#main-container {
+    
+}
+
+#greeting-container {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("pcbRouting.jpg");
+}
+
+#greeting-text-container {
+    background-color:rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+#greeting-header {
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: #2470B9;
+}
+
+#greeting-message {
+    color: white;
+    font-size: 20px;
+}
+
+#current-project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("binaryWallpaper.webp");
+}
+
+#current-project-title{
+    color: #2470B9;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#current-project-img {
+    display: flex;
+    height: auto;
+    max-width: 80%;
+    border-radius: 5px;
+}
+
+#current-project-link {
+    margin: 30px;
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    border-radius: 5px;
+    background-color:#2470B9;
+}
+
+#footer-bar {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+.email-info-footer {
+    color: white;
+}
+
+/* ----- ABOUT PAGE STYLING ----- */
+
+#main-container-about {
+    min-height: 100vh;
+    width: 100%;
+    z-index: 10;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("spaceBackground.jpeg");
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#text-container-about {
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    padding: 10px;
+    max-width: 75%;
+    height: fit-content;
+    color: white;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.about-title-text {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #2470B9;
+}
+
+.about-paragraph {
+    font-size: 20px;
+}
+
+#email-link {
+    color: #2470B9;
+}
+
+.about-subtitle-text {
+    font-size: 25px;
+}
+
+.about-skills-list {
+    margin-left: 40px;
+    font-size: 18px;
+}
