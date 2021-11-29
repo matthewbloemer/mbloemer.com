@@ -249,17 +249,18 @@ body {
     width: 1800px;
 }
 
-.project-goals-subtitle {
+.project-entry-subtitle {
     color: #2470B9;
     font-size: 30px;
     margin-top: 30px;
     margin-left: 5%;
 }
 
-.project-goals-text {
+.project-entry-text {
     font-size: 18px;
     margin-right: 5%;
     margin-left: 5%;
     margin-top: 10px;
     text-align: justify;
+    margin-bottom: 10px;
 }
